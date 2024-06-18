@@ -3,7 +3,7 @@ from pycaret.classification import load_model, predict_model
 import pandas as pd
 
 # PyCaret modelini yükle
-model = load_model("titanic_pycaret_model")
+model = load_model("titanic_pycaret_model.pkl")
 
 # Web uygulaması arayüzünü oluştur
 st.title("Titanic Survived Prediction")
