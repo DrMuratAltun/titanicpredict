@@ -11,8 +11,8 @@ st.subheader("@drmurataltun-2024")
 
 # Kullanıcı girişlerini al
 sex = st.radio("Sex", ['female', 'male'], index=1)
-age = st.slider("Age", min_value=0, max_value=100, value=22)
-fare = st.slider("Fare (British pounds)", min_value=0, max_value=1000, value=15.0,step=1)
+age = st.slider("Age", min_value=0, max_value=100, value=22, step=1)
+fare = st.slider("Fare (British pounds)", min_value=0, max_value=1000, value=15,step=1)
 Pclass = st.radio("Travel Class", ['1', '2', '3'], index=0)
 Embarked = st.radio("Embarked", ['C', 'Q', 'S'], index=2)
 SibSp=st.number_input(label='Kardeş/Eş sayısı',min_value=0,max_value=10, step=1)
